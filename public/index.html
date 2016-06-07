@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Magic Reactions</title>
+    <meta name="description" content="magic reactions">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style/homepage.css">
+</head>
+
+<body>
+    <div class="sample-video">
+        <video type="video/webm" id="video-sample" preload="true" autoplay="autoplay" muted="muted" loop="loop" style="width: 400px; height: 216px;">
+        </video>
+    </div>
+    <div class="youtube-url">
+        <form>
+            <label for="youtube-url">Enter youtube URL</label>
+            <input type="text" value="" placeholder="Enter your URL" id="url-address" name="youtube-url">
+            <button type="submit" onClick="getFileFromUrl(event)">Submit</button>
+        </form>
+    </div>
+</body>
+<script src="libraries/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="application/retrieveFileService.js"></script>
+
+</html>

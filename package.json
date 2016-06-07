@@ -4,6 +4,8 @@
     "dependencies": {
         "express": "~4.5.1",
         "body-parser": "~1.4.2",
-        "method-override": "~2.0.2"
+        "method-override": "~2.0.2",
+        "ytdl-core": "~0.7.16",
+        "ffmpeg": "~0.0.4"
     }
 }
